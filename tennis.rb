@@ -1,5 +1,7 @@
 class Match
 
+  # Pointless commit for code review
+
   # Map points to tennis scores
   SCORES = {
     0 => 0,
@@ -63,7 +65,7 @@ class Match
         score = "Advantage Player Two"
       end
     end
-    
+
     return "#{@games[:player_one]} - #{@games[:player_two]}, #{score}"
   end
 
